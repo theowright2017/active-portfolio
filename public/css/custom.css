@@ -74,7 +74,35 @@ hr.light {
 /* project hover colour */
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption {
   background: rgba(75, 58, 244, 0.9);
+
 }
+.img-fluid {
+  height: 15rem;
+}
+.project-name {
+  color: white;
+  text-decoration: none !important;
+}
+.project-name:hover {
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.github-link {
+  color: white;
+}
+.github-link:hover {
+  color: white;
+  font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+.disabled {
+  pointer-events: none;
+}
+
+
+
 
 
 /* /////////////////////////////////////// */

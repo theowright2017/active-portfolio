@@ -1,11 +1,16 @@
 import React, {Component} from "react"
 
-import Project from './Sub/Project.js'
 
 
+import IssTracker from './Sub/IssTracker.js'
+import MotorcycleRental from './Sub/MotorcycleRental'
+import BlankProject from './Sub/BlankProject'
 
 
 function Portfolio (props) {
+
+
+
   return (
     <div>
 
@@ -13,36 +18,22 @@ function Portfolio (props) {
       <div className="container-fluid p-0">
         <div className="row no-gutters">
 
-        <Project category="Category"
-                  name="Project Name"
-                  src="img/portfolio/thumbnails/1.jpg"
-                  href="https://github.com/theowright2017"
-                  alt=""  />
-        <Project category="Category"
-                  name="Project Name"
-                  src="img/portfolio/thumbnails/1.jpg"
-                  href="https://github.com/theowright2017"
-                  alt=""  />
-        <Project category="Category"
-                  name="Project Name"
-                  src="img/portfolio/thumbnails/1.jpg"
-                  href="https://github.com/theowright2017"
-                  alt=""  />
-        <Project category="Category"
-                  name="Project Name"
-                  src="img/portfolio/thumbnails/1.jpg"
-                  href="https://github.com/theowright2017"
-                  alt=""  />
-        <Project category="Category"
-                  name="Project Name"
-                  src="img/portfolio/thumbnails/1.jpg"
-                  href="https://github.com/theowright2017"
-                  alt=""  />
-        <Project category="Category"
-                  name="Project Name"
-                  src="img/portfolio/thumbnails/1.jpg"
-                  href="https://github.com/theowright2017"
-                  alt=""  />
+
+        <IssTracker />
+
+        <MotorcycleRental />
+
+
+
+        <BlankProject />
+
+        <BlankProject />
+
+        <BlankProject />
+
+        <BlankProject />
+
+
 
 
 
@@ -53,6 +44,27 @@ function Portfolio (props) {
 
     </div>
   )
+
 }
 
 export default Portfolio;
+
+
+// <Project category="Ruby - Sinatra"
+//           name="Motorcycle Rental"
+//           src="img/rental.png"
+//           href="https://github.com/theowright2017/rental-project"
+//           hostURL="https://rent-this.herokuapp.com/"
+//           alt=""
+//           date="March 2019"
+//           className="project-name"/>
+
+
+
+// <Project category="Javascript - Vue.js"
+//           name="ISS Tracker"
+//           src="img/iss.png"
+//           href="https://github.com/S-Maitland/ISS-Tracker"
+//           hostURL=""
+//           alt=""
+//           date="March 2019"  />

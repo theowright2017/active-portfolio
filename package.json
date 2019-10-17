@@ -1,5 +1,6 @@
 {
   "name": "portfolio-hosted",
+  "homepage": "http://theo-wright.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
