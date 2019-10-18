@@ -19,7 +19,7 @@ function IssTracker (props) {
           </a>
           <br />
             <a className="github-link" href="https://github.com/S-Maitland/ISS-Tracker" target="_blank">Click for Github</a>
-            <p>March 2019</p>
+            <p>June 2019</p>
 
 
 
