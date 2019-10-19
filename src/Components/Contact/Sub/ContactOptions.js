@@ -11,7 +11,7 @@ function ContactOptions (props) {
 
 
       <ContactIcon divClass="col-lg-4 ml-auto text-center"
-                   href="#"
+                   href="mailto:contact@theo-wright.com"
                    iconClass="fas fa-envelope fa-3x mb-3 text-muted"   />
 
 
