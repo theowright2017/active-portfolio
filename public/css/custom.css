@@ -29,7 +29,10 @@ header.masthead {
 /* about text */
 .text-white-50 {
   color: rgba(255, 255, 255, 0.7) !important;
-
+}
+.main-points {
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-size: 1rem;
 }
 .about-text-wrapper {
     padding-top: 3rem;

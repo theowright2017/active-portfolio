@@ -4,6 +4,7 @@ import React, {Component} from "react"
 
 import IssTracker from './Sub/IssTracker.js'
 import MotorcycleRental from './Sub/MotorcycleRental'
+import FlightChecker from './Sub/FlightChecker'
 import BlankProject from './Sub/BlankProject'
 
 
@@ -19,13 +20,15 @@ function Portfolio (props) {
         <div className="row no-gutters">
 
 
+        <FlightChecker />
+
         <IssTracker />
 
         <MotorcycleRental />
 
 
 
-        <BlankProject />
+
 
         <BlankProject />
 
