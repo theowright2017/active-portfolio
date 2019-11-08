@@ -96,6 +96,7 @@ hr.light {
 }
 .img-fluid {
   height: 15rem;
+  width: 100%;
 
 }
 .project-name {
