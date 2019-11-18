@@ -17,8 +17,8 @@ function FlightChecker (props) {
           <div className="main-points">
             <i>React Hooks, Context API</i>
           </div>
-          <a className="project-name" href="https://newflights-32f5e.web.app/" target="_blank" >
-            Flight Checker
+          <a className="project-name" href="https://newflights-32f5e.firebaseapp.com/" target="_blank" >
+            Flight Checker!
           </a>
           <br />
             <a className="github-link" href="https://github.com/theowright2017/react-firebase-flight-appt" target="_blank">Click for Github</a>
